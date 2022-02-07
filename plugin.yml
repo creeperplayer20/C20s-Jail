@@ -1,0 +1,15 @@
+name: JailUI
+version: 0.0.1
+main: creeperplayer20\jail\Main
+author: creeperplayer20
+api: 4.0.8
+src-namespace-prefix: creeperplayer20\jail
+
+commands:
+    jail:
+        description: "Jail plugin"
+        usage: "/jail"
+        permission: "jail.command"
+permissions:
+    jail.command:
+        default: op
